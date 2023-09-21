@@ -1,0 +1,67 @@
+body {
+    background-color: rgb(32, 32, 32);    
+    cursor: crosshair;
+}
+
+#main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.folder {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color: rgb(45, 45, 45);
+    padding: 5%;
+    border-radius: 45px;
+}
+
+.avatar {
+    width: 30%;
+    height: 30%;
+}
+
+.avatar img {
+    width: 100%;
+    border-radius: 100%;
+}
+
+.name {
+    color: rgb(159, 159, 159);
+    font-family: consolas;
+}
+
+.name h1 {
+    font-size: 190%;
+}
+
+.about_me {
+    color: rgb(150, 150, 150);
+}
+
+.about_me p {
+    font-family: consolas;
+    font-size: 100%;
+    text-align: justify;
+}
+
+.socicon {
+    margin: 0 5px;
+}
+
+.socicon img {
+    width: 60%;
+    cursor:move;
+}
+
+.society-webs {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5%;
+}
