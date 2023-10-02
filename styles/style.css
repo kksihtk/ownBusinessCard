@@ -1,3 +1,9 @@
+@import url('https://fonts.cdnfonts.com/css/vcr-osd-mono');
+
+* {
+        font-family: 'VCR OSD Mono', sans-serif;
+}
+
 body {
     background-color: rgb(32, 32, 32);    
     cursor: crosshair;
@@ -69,7 +75,7 @@ body {
 @media (max-width: 700px) {
     
     * {
-        font-family: consolas;
+        font-family: 'VCR OSD Mono', sans-serif;
     }
     
     .folder {
