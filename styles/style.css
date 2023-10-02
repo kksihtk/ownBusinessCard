@@ -67,7 +67,18 @@ body {
 }
 
 @media (max-width: 700px) {
+    
+    * {
+        font-family: consolas;
+    }
+    
     .folder {
-        width: 80%;
+        width: 90%;
+        padding: 10%;
+    }
+
+    .avatar {
+        width: 50%;
+        height: 50%;
     }
 }
